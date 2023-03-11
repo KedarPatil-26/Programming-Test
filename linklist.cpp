@@ -60,7 +60,6 @@ void display(node* head){
         cout<<temp->data<<"->";
         temp=temp->next;
     } while (temp!=head);
-    cout<<"NULL"<<endl;
     
 }
  
